@@ -22,7 +22,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 			header('Location: dashboard.php');
 		}
 		else {
-			$error = 'Mauvais identifiants.';
+			$error = 'Mauvais identifiants';
 		}
 
 	}else{
