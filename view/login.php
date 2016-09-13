@@ -8,7 +8,7 @@
 					<?php echo $error; ?>
 				</div>
 			<?php } ?>
-				<h1><i class="fa fa-soundcloud"></i> Connectez-vous !</h1>
+				<h1><i class="fa fa-soundcloud"></i> Connectez-vous </h1>
 				<form method="POST" action="login.php">
 					<div class="form-input">
 						<span class="email">
