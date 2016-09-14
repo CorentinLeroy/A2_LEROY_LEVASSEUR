@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*******************************************************************
 SUMMARY
 	1!FUNCTIONS
@@ -12,14 +12,14 @@ SUMMARY
 		1.8!isEmailAvailable
 		1.9!isUsernameAvailable
 		2.0!isMusicOwner
-		2.1!updateProfilPicture	
+		2.1!updateProfilPicture
 
 ********************************************************************/
 
 /**************************************************
 					1!FUNCTIONS
 **************************************************/
-		
+
 
 	/*1.1!userRegistration
 		return :
@@ -44,8 +44,8 @@ SUMMARY
 			':email' => $email,
 			':password' => $password,
 		));
-		
 
+	
 	}
 
 
@@ -72,7 +72,7 @@ SUMMARY
 
 			//Si le fetch réussi, alors un résultat a été retourné donc le couple email / password est correct
 			if($result == true){
-				
+
 				//on définit la SESSION
 				$_SESSION['id'] = $result['id'];
 				$_SESSION['username'] = $result['username'];
@@ -266,7 +266,7 @@ SUMMARY
 		else{
 			return false;
 		}
-	}	
+	}
 
 	/*2.1!updateProfilPicture*/
 	function updateProfilPicture(PDO $db, $pic, $user_id){
